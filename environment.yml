@@ -1,0 +1,9 @@
+name: cf-tribe-docs
+dependencies:
+- pip=7.0.3=py27_0
+- python=2.7.10=0
+- pip:
+  - git+http://github.com/jszroberto/mkdocs.git#egg=mkdocs
+  - pymdown-extensions
+  - mdx_truly_sane_lists
+  # - mkdocs

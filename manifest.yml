@@ -1,0 +1,7 @@
+applications:
+- memory: 256MB
+  disk_quota: 1GB
+  random-route: true
+  instances: 2
+  buildpack: https://github.com/cloudfoundry/python-buildpack
+  command: mkdocs serve --dev-addr 0.0.0.0:$PORT
